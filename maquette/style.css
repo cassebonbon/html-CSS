@@ -1,0 +1,92 @@
+*{
+margin: 0px;
+}
+body{
+margin: 0px;
+padding: 0px;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding: 25px;
+
+
+}
+ ul li a{
+color: black;
+letter-spacing: 0.1rem;
+bottom: 100px;
+}
+ul li a:hover{
+color: #001aff;
+background-color: rgb(146, 146, 146);
+text-decoration: underline;
+
+}
+.menu li{
+float: left;
+padding: 0px;
+margin-right: 50px;
+margin-left: 20px;
+margin-top: 20px;
+font-size: 30px;
+}
+.menu li a{
+text-decoration: none;
+}
+.form{
+padding: 35px;
+text-align: right;
+}
+img{
+    height: 250px;
+width: 100%;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+.logoescapade{
+width: 250px;
+height: 150px;
+position: absolute;
+top:10%;
+bottom: 150%;
+left: 350px;
+}
+.escapade{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+position: relative;
+top:  5px;
+height: 450px;
+left: 100px;
+width: 380px;
+font-size: 20px;
+background-color: rgb(212, 212, 212);
+margin-top: 20px;
+}
+.img3{
+    border: 0px;
+height: 450px;
+width: 380px;
+position: absolute;
+left: 400px;
+bottom: 0px;
+}
+.h1{
+font-size: 23px;
+}
+.escapadie{  
+    margin-top: 150px;
+
+}
+
+
+
+
+
+
+
+
+
