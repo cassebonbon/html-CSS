@@ -1,0 +1,116 @@
+.container{
+   border: 7px solid rgb(4, 0, 245);
+    width: 800px;
+    height: 1000px;
+    display: flex;
+}
+.orange{
+    border: 7px solid rgb(255, 154, 2);
+    display: flex;
+    flex: 2;
+width: 770px;
+height: 180px;
+margin: 4px;
+position: absolute;
+bottom: 600px;
+left: 18px;
+}
+.containerflex-flow{
+height: 200px;
+flex-flow: column-reverse
+}
+.bleu{
+    border: 7px solid rgb(4, 0, 245);
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    position: absolute;
+    bottom: 450px;
+    left: 30px;
+}
+.bleu1{
+    border: 7px solid rgb(4, 0, 245);
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    position: absolute;
+    bottom: 360px;
+    left: 30px;
+}
+.bleu2{
+    border: 7px solid rgb(4, 0, 245);
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    position: absolute;
+    bottom: 270px;
+    left: 30px;
+}
+.bleu3{
+    border: 7px solid rgb(4, 0, 245);
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    position: absolute;
+    bottom: 180px;
+    left: 30px;
+}
+.bleu4{
+    border: 7px solid rgb(4, 0, 245);
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    position: absolute;
+    bottom: 90px;
+    left: 30px;
+}
+.bleu5{
+    border: 7px solid rgb(4, 0, 245);
+    width: 550px;
+    height: 100px;
+    margin: 5px;
+    position: absolute;
+    bottom: 380px;
+    left: 30px; 
+    position: absolute;
+   left: 210px;
+}
+.bleu6{
+    border: 7px solid rgb(4, 0, 245);
+    width: 550px;
+    height: 100px;
+    margin: 5px;
+    position: absolute;
+    bottom: 250px;
+    left: 30px; 
+    position: absolute;
+   left: 210px;
+}
+.bleu7{
+    border: 7px solid rgb(4, 0, 245);
+    width: 550px;
+    height: 100px;
+    margin: 5px;
+    position: absolute;
+    bottom: 120px;
+    left: 30px; 
+    position: absolute;
+   left: 210px;
+}
+.container1{
+display: flex;
+}
+.verte{
+   border: 7px solid rgb(0, 248, 12);
+    display: flex;
+    flex: 3;
+width: 780px;
+height: 200px;
+margin: 5px;
+position: absolute;
+top: 850px;
+
+
+
+
+}
