@@ -157,24 +157,50 @@
 }
 
 /* Met le texte p2 en survolage blanc */
-p2:hover{
+p2:hover {
     background-color: white;
 /}
  .Bbloc3{
-    background-color: #f7f7f7;
+    background-color: #ff0000;
    position: absolute;
-height: 450px;
+height: 440px;
 top: 1300px;
 width: 100%;
 text-align: center;
-} */ */
-.ablock4{
-
-
+} 
+.Cblock{
+background-color: #ffbc2c;
+height: 450px;
+width: 100%;
+text-align: center;
+display: flex;
 
 }
 
- 
+.Abloc4{
+background-color: blueviolet;
+position: absolute;
+left: 190px;
+height: 400px;
+width: 400px;
+margin-left: 0%;
+
+
+}
+.Abloc5{
+
+background-color: blue;
+position: absolute;
+height: 400px;
+width: 400px;
+margin-left: 52%;
+}
+
+
+
+
+
+  
     
 
  
