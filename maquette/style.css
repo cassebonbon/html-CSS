@@ -102,16 +102,6 @@
         justify-content: center;
         
     }
-    
-    /* .image-fond2{
-        position: absolute; 
-        width: 100%;
-        background-size: cover; 
-        background-position: center center; 
-       
-    } */
-    
-    
 .Bbloc1 {
     position: absolute;
     width: 32%; /* Largeur de la div conteneur */
@@ -161,7 +151,7 @@ p2:hover {
     background-color: white;
 /}
  .Bbloc3{
-    background-color: #ff0000;
+    background-color: #fc0000;
    position: absolute;
 height: 440px;
 top: 1300px;
@@ -169,7 +159,7 @@ width: 100%;
 text-align: center;
 } 
 .Cblock{
-background-color: #ffbc2c;
+
 height: 450px;
 width: 100%;
 text-align: center;
@@ -178,23 +168,73 @@ display: flex;
 }
 
 .Abloc4{
-background-color: blueviolet;
+
 position: absolute;
 left: 190px;
 height: 400px;
 width: 400px;
-margin-left: 0%;
-
+margin-left: 16%;
 
 }
 .Abloc5{
-
-background-color: blue;
 position: absolute;
 height: 400px;
 width: 400px;
 margin-left: 52%;
 }
+.Cblock1{
+background-color: aqua;
+width: 100%;
+position: absolute;
+top: 1740px;
+height: 600px;
+text-align: center;
+justify-content: center;
+}
+.Cblock2{
+width: 40%;
+margin-left: 28%;
+}
+.Cblock3{
+
+    text-align: center; /* Centre le texte horizontalement à l'intérieur de la div */
+    background-color: transparent; /* Couleur de fond de la div texte-centre */
+    padding: 20px; /* Espacement interne pour le texte */
+}
+.Cblocka1{
+/* display: inline-block; */
+
+
+
+}
+.img4{
+    object-fit: cover;
+height: 360px;
+width: 218px;
+position: absolute;
+left: 400px;
+bottom: px;
+
+}
+.img5{
+object-fit: cover;
+height: 360px;
+width: 218px;
+
+}
+.img6{
+    object-fit: cover;
+    height: 360px;
+    width: 218px;
+}
+.img7{
+    object-fit: cover;
+    height: 360px;
+    width: 218px;
+    }
+    
+
+
 
 
 
