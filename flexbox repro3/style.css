@@ -1,0 +1,126 @@
+.container{
+    background-color: blue;
+    width: 800px;
+    height: 1000px;
+    display: flex;
+    
+}
+.orangegris{
+display: flex;
+/* width: 300px;
+height: 150px;
+margin-top: 30px;
+margin-left: 30px; */
+
+
+
+}
+.orange{
+    background-color: darkorange;
+    display: flex;
+    width: 380px;
+    height: 150px;
+    position: absolute;
+    top: 130px;
+   right: 820px;
+    
+
+    /* margin-top: 30px;
+    margin-left: 30px; */
+ 
+}
+.gris{
+background-color: rgb(124, 124, 124);
+width: 380px;
+height: 150px;
+position: absolute;
+top: 130px;
+left: 420px;
+}
+.jaune{
+    background-color: yellow;
+    height: 100px;
+width: 775px;
+flex: 3px;
+margin: 5px;
+    position: absolute;
+    top: 310px;
+    right: 415px;
+}
+.containerflex-flow{
+    height: 200px;
+    flex-flow: column-reverse;
+}
+.orange1{
+background-color: darkorange;
+width: 150px;
+height: 100px;
+margin: 5px;
+position: absolute;
+bottom: 320px;
+left: 30px;
+}
+.orange2{
+    background-color: darkorange;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    position: absolute;
+    bottom: 320px;
+    left: 230px;
+}
+.orange3{
+
+    background-color: darkorange;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    position: absolute;
+    bottom: 320px;
+    left: 430px;
+}
+.orange4{
+
+    background-color: darkorange;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    position: absolute;
+    bottom: 320px;
+    left: 630px;
+}
+.container1{
+display: flex;
+}
+.jaune1jaune2{
+}
+.jaune1{
+    background-color: yellow;
+width: 380px;
+    height: 150px;
+    position: absolute;
+bottom: 130px;
+   right: 820px;
+}
+.jaune2{
+    background-color: yellow;
+    width: 380px;
+        height: 150px;
+        position: absolute;
+    bottom: 130px;
+       right: 425px;
+}
+.verte{
+    background-color: chartreuse;
+    display: flex;
+    flex: 3;
+width: 788px;
+height: 200px;
+margin: 5px;
+position: absolute;
+top: 800px;
+
+
+
+
+}

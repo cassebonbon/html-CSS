@@ -1,0 +1,66 @@
+
+.container{
+    background-color: blue;
+    width: 800px;
+    height: 1000px;
+    display: flex;
+    
+    
+}
+.orange{
+    background-color: darkorange;
+    display: flex;
+    flex: 3;
+width: 200px;
+height: 200px;
+margin: 5px;
+
+
+}
+.grisjaune{
+    display: flex;
+   
+
+
+}
+.gris{
+    background-color: rgb(121, 121, 121);
+display: flex;
+   height: 400px;
+   width: 150px;
+   position: absolute;
+  bottom: 200px;
+ right: 1050px;
+}
+.jaune{
+display: flex;
+background-color: yellow;
+height: 400px;
+width: 620px;
+position: absolute;
+top: 310px;
+right: 420px;
+}
+.verte{
+display: flex;
+background-color: chartreuse;
+ flex: 3;
+ margin: 5px;
+width: 790px;
+height: 200px;
+position: absolute;
+top: 750px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
