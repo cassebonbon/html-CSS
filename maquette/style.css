@@ -282,7 +282,576 @@ left: 838px;
     left: 1314px;
     }
     
+    @media screen and (max-width:320px){
+body
+.bouton1{
+    color: black;
+        padding: 20px 50px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        font-weight:bold;
+    }
+    .bouton1 {
+        background-color: #ffffff; 
+        color: #000000; 
+        padding: 20px 50px; 
+        margin: 0px 0px;
+        border: none; 
+        border-radius: 0px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        font-weight: bold;
+    }
+    
+    .bouton1:hover {
+        background-color: #ccc; 
+    }
+    .sidebar{
+        background-color: #ffffff; 
+        text-align: center; 
+        padding: 0px 0; 
+    }
+    .bg1{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        background-color:   transparent;
+        width: 100%; 
+        height: 250px; 
+        background-size: cover; 
+        background-position: center; 
+    
 
+    }
+    .img1{
+        position: relative;
+        width: 100%;
+      height: 250px;
+      background-size: cover;
+      background-position: center center;
+      }
+      .img2{
+          position: absolute; 
+          max-width: 100%;
+      }
+      .Abloc{
+          background-color:transparent;
+          display: flex;
+          margin-top: 30px;
+          margin-right: auto;
+          margin-left: auto;
+          width: 780px;
+          height: 450px;
+      }
+      
+      .Abloc1{
+          background-color: #ccc;
+          display: flex;
+          width: 380px;
+          position: relative; 
+          text-align: center;
+          padding-right: 5%;
+          padding-left: 5%;
+          padding-top: 3%;
+          font-size: 15px;
+      }
+      
+      .Abloc2{
+          background-color: #ccc;
+          display: flex;
+          width: 380px;
+          position: relative; 
+      }
+      .image-photo{
+          position: absolute; 
+          max-width: 100%;
+          height: 100%;
+          background-size: cover;
+      }
+      .Bbloc{
+          position: absolute;
+          display: flex;
+          margin-top: 30px;
+          margin-right: auto;
+          margin-left: auto;
+          width: 100%;
+          height: 450px;
+          justify-content: center;
+          
+      }
+  .Bbloc1 {
+      position: absolute;
+      width: 32%; /* Largeur de la div conteneur */
+      height: 200px; /* Hauteur de la div conteneur */
+      display: flex; /* Utilisation du modèle de boîte flexible pour centrer le contenu */
+      justify-content: center; /* Centre horizontalement le contenu */
+      align-items: center; /* Centre verticalement le contenu */
+      background-color: #ccc; /* Couleur de fond de la div conteneur */
+      padding-bottom: 200px;
+      line-height: 1.5;
+      top: 10px;
+  }
+  
+  .Bbloc1a {
+      text-align: center; /* Centre le texte horizontalement à l'intérieur de la div */
+      background-color: transparent; /* Couleur de fond de la div texte-centre */
+      padding: 20px; /* Espacement interne pour le texte */
+  }
+  
+  .Bbloc2a:hover{
+      background-color: #8da881;
+  }
+  .Bbloc2{
+      position: absolute;
+      text-align: center;
+      margin-top: 200px;
+  }
+  .Bbloc2a {
+      position: relative;
+      width: 220px;
+      height: 196px;
+      background-color: #ffbc2c;
+      margin-right: 10px; /* Espacement horizontal */
+      margin-bottom: 10px; /* Espacement vertical */
+      display: inline-block; /* Pour afficher les blocs en ligne */
+      padding: 5px;
+      text-align: center;
+  }
+  
+  /* Supprimer la marge de droite du dernier bloc */
+  .Bbloc2a:last-child {
+      margin-right: 0;
+  }
+  
+  /* Met le texte p2 en survolage blanc */
+  p2:hover {
+      background-color: white;
+  /}
+   .Bbloc3{
+      background-color: #fc0000;
+     position: absolute;
+  height: 440px;
+  top: 1300px;
+  width: 100%;
+  text-align: center;
+  } 
+  .Cblock{
+  
+  height: 450px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  
+  }
+  
+  .Abloc4{
+  position: absolute;
+   left: 30px; 
+  height: 400px;
+  width: 400px;
+  margin-left: 23%;
+  
+  }
+  .Abloc5{
+      text-align: center;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  margin-left: 52%;
+  }
+  .Cblock1{
+  background-color: green;
+  position: absolute;
+  top: 1740px;
+  height: 600px;
+  text-align: center; 
+   justify-content: center;
+   width: 100%;
+  }
+  .test{
+  background-color: #ffffff;
+  display: flex;
+  width: 380px;
+  position: absolute;
+  left: -20%;
+  right: -15%;
+  text-align: center;
+  
+  
+  }
+  .Cblock2{
+  width: 40%;
+  margin-left: 28%;
+  }
+  .Cblock3{
+  
+      text-align: center; /* Centre le texte horizontalement à l'intérieur de la div */
+      background-color: transparent; /* Couleur de fond de la div texte-centre */
+      padding: 20px; /* Espacement interne pour le texte */
+  }
+  .Cblocka1{
+  display: inline-block; 
+  padding-left: 20px;
+  
+  
+  }
+  .img4{
+      object-fit: cover;
+  height: 260px;
+  width: 218px;
+  position: absolute;
+  left: 600px;
+  }
+  .test1{
+  background-color: #ffbc2c;
+  height: 100px;
+  width: 218px;
+  position: absolute;
+  margin-left: 600px;
+  top: 260px;
+  }
+  .test2{
+  
+      background-color: #ffbc2c;
+      height: 100px;
+      width: 218px;
+      position: absolute;
+      margin-left: 838px;
+      top: 260px;
+  
+  
+  }
+  .img5{
+  object-fit: cover;
+  height: 260px;
+  width: 218px;
+  position: absolute;
+  left: 838px;
+  }
+  .test3{
+      background-color: #ffbc2c;
+      height: 100px;
+      width: 218px;
+      position: absolute;
+      margin-left: 1076px;
+      top: 260px;
+  }
+  .img6{
+       object-fit: cover;
+      height: 260px;
+      width: 218px;
+      position: absolute;
+      left: 1076px;   
+  }
+  .test4{
+      background-color: #ffbc2c;
+      height: 100px;
+      width: 218px;
+      position: absolute;
+      margin-left: 1314px;
+      top: 260px;
+  }
+  .img7{
+      object-fit: cover;
+      height: 260px;
+      width: 218px;
+      position: absolute;
+      left: 1314px;
+      }
+}
+
+
+@media screen  and (max-width:760px){
+    body
+    .bouton1{
+        color: black;
+            padding: 20px 50px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            font-weight:bold;
+        }
+        .bouton1 {
+            background-color: #ffffff; 
+            color: #000000; 
+            padding: 20px 50px; 
+            margin: 0px 0px;
+            border: none; 
+            border-radius: 0px; 
+            text-align: center; 
+            text-decoration: none; 
+            display: inline-block; 
+            font-size: 16px; 
+            font-weight: bold;
+        }
+        
+        .bouton1:hover {
+            background-color: #ccc; 
+        }
+        .sidebar{
+            background-color: #ffffff; 
+            text-align: center; 
+            padding: 0px 0; 
+        }
+        .bg1{
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            background-color:   transparent;
+            width: 100%; 
+            height: 250px; 
+            background-size: cover; 
+            background-position: center; 
+        
+    
+        }
+        .img1{
+            position: relative;
+            width: 100%;
+          height: 250px;
+          background-size: cover;
+          background-position: center center;
+          }
+          .img2{
+              position: absolute; 
+              max-width: 100%;
+          }
+          .Abloc{
+              background-color:transparent;
+              display: flex;
+              margin-top: 30px;
+              margin-right: auto;
+              margin-left: auto;
+              width: 780px;
+              height: 450px;
+          }
+          
+          .Abloc1{
+              background-color: #ccc;
+              display: flex;
+              width: 380px;
+              position: relative; 
+              text-align: center;
+              padding-right: 5%;
+              padding-left: 5%;
+              padding-top: 3%;
+              font-size: 15px;
+          }
+          
+          .Abloc2{
+              background-color: #ccc;
+              display: flex;
+              width: 380px;
+              position: relative; 
+          }
+          .image-photo{
+              position: absolute; 
+              max-width: 100%;
+              height: 100%;
+              background-size: cover;
+          }
+          .Bbloc{
+              position: absolute;
+              display: flex;
+              margin-top: 30px;
+              margin-right: auto;
+              margin-left: auto;
+              width: 100%;
+              height: 450px;
+              justify-content: center;
+              
+          }
+      .Bbloc1 {
+          position: absolute;
+          width: 32%; /* Largeur de la div conteneur */
+          height: 200px; /* Hauteur de la div conteneur */
+          display: flex; /* Utilisation du modèle de boîte flexible pour centrer le contenu */
+          justify-content: center; /* Centre horizontalement le contenu */
+          align-items: center; /* Centre verticalement le contenu */
+          background-color: #ccc; /* Couleur de fond de la div conteneur */
+          padding-bottom: 200px;
+          line-height: 1.5;
+          top: 10px;
+      }
+      
+      .Bbloc1a {
+          text-align: center; /* Centre le texte horizontalement à l'intérieur de la div */
+          background-color: transparent; /* Couleur de fond de la div texte-centre */
+          padding: 20px; /* Espacement interne pour le texte */
+      }
+      
+      .Bbloc2a:hover{
+          background-color: #8da881;
+      }
+      .Bbloc2{
+          position: absolute;
+          text-align: center;
+          margin-top: 200px;
+      }
+      .Bbloc2a {
+          position: relative;
+          width: 220px;
+          height: 196px;
+          background-color: #ffbc2c;
+          margin-right: 10px; /* Espacement horizontal */
+          margin-bottom: 10px; /* Espacement vertical */
+          display: inline-block; /* Pour afficher les blocs en ligne */
+          padding: 5px;
+          text-align: center;
+      }
+      
+      /* Supprimer la marge de droite du dernier bloc */
+      .Bbloc2a:last-child {
+          margin-right: 0;
+      }
+      
+      /* Met le texte p2 en survolage blanc */
+      p2:hover {
+          background-color: white;
+      /}
+       .Bbloc3{
+          background-color: #fc0000;
+         position: absolute;
+      height: 440px;
+      top: 1300px;
+      width: 100%;
+      text-align: center;
+      } 
+      .Cblock{
+      
+      height: 450px;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      
+      }
+      
+      .Abloc4{
+      position: absolute;
+       left: 30px; 
+      height: 400px;
+      width: 400px;
+      margin-left: 23%;
+      
+      }
+      .Abloc5{
+          text-align: center;
+      position: absolute;
+      height: 400px;
+      width: 400px;
+      margin-left: 52%;
+      }
+      .Cblock1{
+      background-color: green;
+      position: absolute;
+      top: 1740px;
+      height: 600px;
+      text-align: center; 
+       justify-content: center;
+       width: 100%;
+      }
+      .test{
+      background-color: #ffffff;
+      display: flex;
+      width: 380px;
+      position: absolute;
+      left: -20%;
+      right: -15%;
+      text-align: center;
+      
+      
+      }
+      .Cblock2{
+      width: 40%;
+      margin-left: 28%;
+      }
+      .Cblock3{
+      
+          text-align: center; /* Centre le texte horizontalement à l'intérieur de la div */
+          background-color: transparent; /* Couleur de fond de la div texte-centre */
+          padding: 20px; /* Espacement interne pour le texte */
+      }
+      .Cblocka1{
+      display: inline-block; 
+      padding-left: 20px;
+      
+      
+      }
+      .img4{
+          object-fit: cover;
+      height: 260px;
+      width: 218px;
+      position: absolute;
+      left: 600px;
+      }
+      .test1{
+      background-color: #ffbc2c;
+      height: 100px;
+      width: 218px;
+      position: absolute;
+      margin-left: 600px;
+      top: 260px;
+      }
+      .test2{
+      
+          background-color: #ffbc2c;
+          height: 100px;
+          width: 218px;
+          position: absolute;
+          margin-left: 838px;
+          top: 260px;
+      
+      
+      }
+      .img5{
+      object-fit: cover;
+      height: 260px;
+      width: 218px;
+      position: absolute;
+      left: 838px;
+      }
+      .test3{
+          background-color: #ffbc2c;
+          height: 100px;
+          width: 218px;
+          position: absolute;
+          margin-left: 1076px;
+          top: 260px;
+      }
+      .img6{
+           object-fit: cover;
+          height: 260px;
+          width: 218px;
+          position: absolute;
+          left: 1076px;   
+      }
+      .test4{
+          background-color: #ffbc2c;
+          height: 100px;
+          width: 218px;
+          position: absolute;
+          margin-left: 1314px;
+          top: 260px;
+      }
+      .img7{
+          object-fit: cover;
+          height: 260px;
+          width: 218px;
+          position: absolute;
+          left: 1314px;
+          }
+}
+    
+
+
+
+
+
+
+        
 
 
 
