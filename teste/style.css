@@ -1,0 +1,117 @@
+/* CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+  }
+
+  header {
+    background-color: #f03d06;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  main {
+    margin: 20px;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
+
+
+  .slideshow-container {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    width: 100%;
+    height: 300px; /* ajustez la hauteur selon vos besoins */
+  }
+  
+  .slide {
+ 
+    height: 150px;
+    width: 200px;
+    position: relative;
+    top: 180px;
+    left: 650px;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 130%;
+    text-align: center;
+    font-size:10px;
+    color: rgb(228, 228, 228);
+    background-color: rgba(48, 41, 41, 0.5);
+    padding: 10px;
+    height: 310PX;
+  }
+  
+ 
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    20%, 80% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+  
+  .slide {
+    animation: slide 5s infinite;
+  }
+  
+  .slide:nth-child(2) {
+    animation-delay: 5s;
+  }
+  
+  .slide:nth-child(3) {
+    animation-delay: 10s;
+  }
+  .teste{
+position: relative;
+top: 100px;
+left: 75px;
+
+  }
+  .gf{
+position: relative;
+bottom: 35px;
+
+
+
+  }
